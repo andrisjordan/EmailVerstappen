@@ -1,4 +1,4 @@
-var development = true
+var development = false
 var currentserver = null
 var server = {
     server: "http://193.242.117.100:5000/",
