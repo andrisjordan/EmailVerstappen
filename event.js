@@ -50,7 +50,7 @@ $(document).ready(function () {
                 description: $("#eventDesc").val(),
                 start: $("#eventStart").val(),
                 end: $("#eventEnd").val(),
-                needsTicket: $("#ticketBoolean").val(),
+                needsTicket: ticket,
                 paymentMethod: $("#selectionPayment").val(),
                 organizer: $("#selection").val(),
                 vendors: selectedVendors
