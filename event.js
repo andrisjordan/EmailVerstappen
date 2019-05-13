@@ -37,9 +37,13 @@ $(document).ready(function () {
             for (var index2 = 0; index2 < vendors.length; index2++) {
                 var value = $("#vendor" + index2).val()
                 var checked = $("#vendor" + index2).is(":checked")
-                if(checked){
+                if (checked) {
                     selectedVendors.push(value)
                 }
+            }
+            var ticket = false
+            if ($('#ticketBoolean').is(":checked")) {
+                ticket = true
             }
             var body = {
                 name: $("#eventName").val(),
@@ -51,7 +55,7 @@ $(document).ready(function () {
                 organizer: $("#selection").val(),
                 vendors: selectedVendors
             }
-            customFetch("event","POST",body).then(data => {
+            customFetch("event", "POST", body).then(data => {
                 console.log(data)
             })
         })
