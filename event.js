@@ -43,6 +43,7 @@ $(document).ready(function () {
             }
             var body = {
                 name: $("#eventName").val(),
+                description: $("#eventDesc").val(),
                 start: $("#eventStart").val(),
                 end: $("#eventEnd").val(),
                 needsTicket: $("#ticketBoolean").val(),
