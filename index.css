@@ -48,28 +48,3 @@ html {
     border-radius: 40px;
 
 }
-
-.done {
-    display:inline-block;
-    padding:0.3em 1.2em;
-    margin:0 0.3em 0.3em 0;
-    border-radius:2em;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:'OpenSans-Regular',sans-serif;
-    font-weight:400;
-    color:var(--primary);
-    background-color:var(--third);
-    text-align:center;
-    transition: all 0.2s;
-}
-
-.done:hover{
-    background-color:#4095c6;
-}
-@media all and (max-width:30em){
-.done{
-    display:block;
-    margin:0.2em auto;
-    }
-}
