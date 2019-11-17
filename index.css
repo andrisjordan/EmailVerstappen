@@ -31,12 +31,13 @@ html {
     margin: 1vmin
 }
 
-#done {
+#done_old {
     width: 10vmin;
     height: 5vmin;
     border-radius: 0.5vmin;
     margin: 4vmin;
-    color: var(--third);
+    background-color: var(--third);
+    color: var(--primary);
     font-family: 'OpenSans-Regular';
     margin-right: 'auto';
     margin-left: 'auto';
@@ -46,4 +47,19 @@ html {
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     border-radius: 40px;
 
+}
+
+#done {
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'OpenSans-Regular',sans-serif;
+    font-weight:400;
+    color:var(--primary);
+    background-color:var(--third);
+    text-align:center;
+    transition: all 0.2s;
 }
