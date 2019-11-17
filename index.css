@@ -49,7 +49,7 @@ html {
 
 }
 
-#done {
+.done {
     display:inline-block;
     padding:0.3em 1.2em;
     margin:0 0.3em 0.3em 0;
@@ -62,4 +62,14 @@ html {
     background-color:var(--third);
     text-align:center;
     transition: all 0.2s;
+}
+
+.done:hover{
+    background-color:#4095c6;
+}
+@media all and (max-width:30em){
+.done{
+    display:block;
+    margin:0.2em auto;
+    }
 }
