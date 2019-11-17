@@ -3,7 +3,7 @@ html {
 }
 
 .passwords {
-    background-color: gray;
+    background-color: whitesmoke;
     padding: 2vmin;
     display: flex;
     flex-direction: column;
