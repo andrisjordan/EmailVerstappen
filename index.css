@@ -19,19 +19,20 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: var(--third);
     margin: 3vmin
 }
 
 #newpasswordOne {
+    color: var(--third);
     margin: 1vmin
 }
 
 #newpasswordTwo {
+    color: var(--third);
     margin: 1vmin
 }
 
-#done {
+#done{
     display:inline-block;
     padding:0.3em 1.2em;
     margin:15px 0.3em 0.3em 15px;
@@ -42,7 +43,7 @@ html {
     font-weight:530;
     font-size: 15px;
     color:var(--primary);
-    background-color:var(--third);
+    background-color:var(--third)!important;
     text-align:center;
     transition: all 0.2s;
 
